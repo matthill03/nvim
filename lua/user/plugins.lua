@@ -46,7 +46,6 @@ return packer.startup(function(use)
 
   -- Colourschemes
   use "lunarvim/colorschemes"
-  use "rebelot/kanagawa.nvim"
 
   -- Completion
   use "hrsh7th/nvim-cmp"
@@ -93,6 +92,9 @@ return packer.startup(function(use)
 
   -- Git signs
   use "lewis6991/gitsigns.nvim"
+
+  -- Live Server
+  use "manzeloth/live-server"
 
 
   if PACKER_BOOTSTRAP then
